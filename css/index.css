@@ -1,0 +1,47 @@
+tr {
+    height: 70px;
+}
+
+table {
+    border: black solid;
+    border-collapse: collapse;
+    margin: auto;
+    width: 75%;
+}
+
+td {
+    border: 1px black solid;
+    text-align: center;
+    font-family: Microsoft JhengHei;
+    transition: 0.5s;
+}
+
+.top {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.back {
+    top: 24px;
+    position: relative;
+    padding: 15px 20px;
+    margin: 15px 20px;
+    border: black solid;
+}
+
+.text {
+    text-align: center;
+    font-family: DFKai-sb;
+}
+
+a:hover {
+    color: #fc3a63;
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+
+td:hover {
+    transform: scale(1.3);
+}
